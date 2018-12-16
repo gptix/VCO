@@ -1,0 +1,124 @@
+* Outline for class on using Autodesk EAGLE
+** Goals
+- [ ] Install software
+- [ ] Review concepts
+- [ ] make first project
+- [ ] install and activate library
+- [ ] make a project using a library
+- [ ] prepare completely for ordering
+** Install Software
+** Concepts
+- schematic
+- layout
+- synchronization
+- libraries
+- components
+- nets
+- rules
+** Make a Project
+*** Add components
+*** Move and rotate compoenents
+*** Connect compoents
+*** Ground and Power
+** Component Libraries
+*** Those that come with
+*** Modifying those that come with
+*** Third Party
+**** Adafruit
+**** CEM
+** Project - VCO
+
+** Prepare for Ordering
+
+
+* TODO
+- [-] parts table
+  - [X] start
+  - [ ] complete
+    - [ ] board dimensions for resistors
+    - [ ] part number for potentiometers
+    - [ ] dimensions for potentiometers
+    - [ ] dimensions for capacitors
+    - [ ] part number for jack sockets
+    - [ ] dimensions for jack sockets
+    - [ ] part number for power connector
+    - [ ] dimensions for power connector
+- [ ] research line form factor potentiometers
+- [ ] find or make library for jacks
+- [ ] make github repo for VCO
+- [ ] send Tom 
+  - [ ] link to github
+  - [ ] these notes
+
+* For Tom
+** Sliding potentiometer
+The values are 10K and 20K.  
+Mouser page: https://www.mouser.com/Passive-Components/Potentiometers-Trimmers-Rheostats/Slide-Potentiometers/_/N-9q0yl
+- [ ] if you have parts, please provide dimensions, or link to datasheet
+- [ ] otherwise, please choose a part on Mouser or other, and let me know
+- [ ] please provide dimensions for resistors (length, diameter, distance between through-holes (or an Eagle Library identifier
+- [ ] please provide Eagle library identifier, or dimensions (l, w, h, distance between holes) for caps
+- [ ] please let me knpow how many jacks we will use
+- [ ] please provide Eagle library identifier, or dimensions (l, w, h, distance between holes on board, location and diameter of hole for socket) for sockets
+- [ ] please provide Eagle library identifier, or dimensions (l, w, h, distance between holes on board) for power connector
+
+* Parts for VCO circuit
+| IC         |        |      |
+|------------+--------+------|
+| Name       | form   |      |
+|------------+--------+------|
+| CEM3340    |        |      |
+|------------+--------+------|
+|            |        |      |
+| Resistors  |        |      |
+|------------+--------+------|
+| Name       | Value  | form |
+|------------+--------+------|
+| R1         | 100K   |      |
+| R2         | 100K   |      |
+| R3         | 360K   |      |
+| R4         | 1.8K   |      |
+| R5         | 1M     |      |
+| R6         | 1.5M   |      |
+| R7         | 470    |      |
+| R8         | 470    |      |
+| R9         | 1M     |      |
+| R10        | 24K    |      |
+| R11        | 5.6K   |      |
+| R12        | 820    |      |
+|------------+--------+------|
+|            |        |      |
+| Pots       |        |      |
+|------------+--------+------|
+| Name       | value  | form |
+|------------+--------+------|
+| POT1       | 10K    |      |
+| POT2       | 20K    |      |
+|------------+--------+------|
+|            |        |      |
+| Capacitors | value  | form |
+|------------+--------+------|
+| C1         | 0.1u   |      |
+| C2         | 0.01u  |      |
+| C3         | 1000p  |      |
+| C4         | 0.001u |      |
+| C5         | 0.01u  |      |
+| C6         | 0.001u |      |
+|------------+--------+------|
+| Connectors |        |      |
+|------------+--------+------|
+| CON1       |        |      |
+| CON2       |        |      |
+| CON3       |        |      |
+| CON4       |        |      |
+| CON5       |        |      |
+| CON6       |        |      |
+| CON7       |        |      |
+| CON8       |        |      |
+| CON9       |        |      |
+| CON10      |        |      |
+| CON11      |        |      |
+|------------+--------+------|
+#+TBLFM: $1=--
+
+
