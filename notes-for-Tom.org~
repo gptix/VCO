@@ -122,19 +122,3 @@ Mouser page: https://www.mouser.com/Passive-Components/Potentiometers-Trimmers-R
 #+TBLFM: $1=--
 
 
-
-
-* References
-** Eurorack standards
-http://electronicmusic.wikia.com/wiki/Eurorack
-http://www.doepfer.de/a100_man/a100m_e.htm
-https://i.imgur.com/0m7hy4D.png
-** Dimensions of Tom's VCO
-*** Top plate (surface user sees when playing)
-width = .8 inch
-length 5.08 inch
-** PCB
-width - mostly same.
-length -  4.3 inches
-** Basics of layout of board
-https://learn.sparkfun.com/tutorials/using-eagle-board-layout/arranging-the-board
