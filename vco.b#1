@@ -1737,7 +1737,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="55.88" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="36.4744" y="68.0974" size="0.9906" layer="27" ratio="10"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" package="2X8-SHROUDED_LOCK" value="" x="78.74" y="59.69" smashed="yes"/>
+<element name="J1" library="SparkFun-Connectors" package="2X8-SHROUDED_LOCK" value="" x="-5.08" y="15.24" smashed="yes"/>
 </elements>
 <signals>
 <signal name="N$1">
