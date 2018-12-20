@@ -1,0 +1,49 @@
+Assembly variant: 
+
+- [ ] change resistors to 6mm long
+- [ ] get .01uF caps
+- [ ] get power regulator
+- [ ] get potentiometers
+why are some listed as 1000pF and some as .001uF
+
+| Part      | Value              | On hand | Device             | Package             | Library    | Sheet |      Note     |
+|-----------+--------------------+---------+--------------------+---------------------+------------+-------+---------------|
+| C1        | .01UF              |    zero | C-US050-024X044    | C050-024X044        | rcl        |     1 |               |
+| C2        | .01UF              |    zero | C-US050-024X044    | C050-024X044        | rcl        |     1 |               |
+| C3        | .1uf               |      10 | C-US050-024X044    | C050-024X044        | rcl        |     1 |               |
+| C4        | 1000pF             |      16 | C-US050-024X044    | C050-024X044        | rcl        |     1 | same as .001u |
+| C5        | .001uF             |      16 | C-US050-024X044    | C050-024X044        | rcl        |     1 |               |
+
+| CV-1      | WQP-PJ301M-12_JACK |     100 | WQP-PJ301M-12_JACK | WQP-PJ301M-12_JACK  | thonkiconn |     1 |               |
+| CV-2      | WQP-PJ301M-12_JACK |     100 | WQP-PJ301M-12_JACK | WQP-PJ301M-12_JACK  | thonkiconn |     1 |               |
+| CV-3      | WQP-PJ301M-12_JACK |     100 | WQP-PJ301M-12_JACK | WQP-PJ301M-12_JACK  | thonkiconn |     1 |               |
+| HARD_S    | WQP-PJ301M-12_JACK |     100 | WQP-PJ301M-12_JACK | WQP-PJ301M-12_JACK  | thonkiconn |     1 |               |
+| IC1       | CEM3340            |      11 | CEM3340            | DIL16               | CEM        |     1 |               |
+
+| IC2       | 79L05Z             |         | TO92               | linear              |            |     1 |               |
+| J3        | CONN_08X2_SHROUD   |      11 | 2X8-SHROUDED_LOCK  | SparkFun-Connectors |            |     1 |               |
+| LINEAR-FM | WQP-PJ301M-12_JACK |     100 | WQP-PJ301M-12_JACK | WQP-PJ301M-12_JACK  | thonkiconn |     1 |               |
+| PWM_C     | WQP-PJ301M-12_JACK |     100 | WQP-PJ301M-12_JACK | WQP-PJ301M-12_JACK  | thonkiconn |     1 |               |
+| R1        | 360k               |       9 | R-US_0207/10       | 0207/10             | rcl        |     1 | change to 6mm |
+
+| R2        | 100k               |      47 | R-US_0207/10       | 0207/10             | rcl        |     1 |               |
+| R3        | 100k               |      47 | R-US_0207/10       | 0207/10             | rcl        |     1 |               |
+| R4        | 100k               |      47 | R-US_0207/10       | 0207/10             | rcl        |     1 |               |
+| R5        | 470 ohm            |      24 | R-US_0207/10       | 0207/10             | rcl        |     1 |               |
+| R6        | 1M                 |      25 | R-US_0207/10       | 0207/10             | rcl        |     1 |               |
+
+| R7        | 1.8k               |       9 | R-US_0207/10       | 0207/10             | rcl        |     1 |               |
+| R8        | 470ohm             |      24 | R-US_0207/10       | 0207/10             | rcl        |     1 |               |
+| R9        | 1.5M               |      25 | R-US_0207/10       | 0207/10             | rcl        |     1 |               |
+| R10       | 1M                 |      25 | R-US_0207/10       | 0207/10             | rcl        |     1 |               |
+| R11       | 20k                |         | TRIM_US-B64Y       | B64Y                | pot        |     1 |               |
+
+| R12       | 10k                |         | TRIM_US-B64Y       | B64Y                | pot        |     1 |               |
+| R13       | 24k                |      24 | R-US_0207/10       | 0207/10             | rcl        |     1 |               |
+| R14       | 5.6k               |      25 | R-US_0207/10       | 0207/10             | rcl        |     1 |               |
+| R16       | 10k                |      24 | R-US_0207/10       | 0207/10             | rcl        |     1 |               |
+| SAW       | WQP-PJ301M-12_JACK |     100 | WQP-PJ301M-12_JACK | WQP-PJ301M-12_JACK  | thonkiconn |     1 |               |
+
+| SOFT      | WQP-PJ301M-12_JACK |     100 | WQP-PJ301M-12_JACK | WQP-PJ301M-12_JACK  | thonkiconn |     1 |               |
+| SQUARE    | WQP-PJ301M-12_JACK |     100 | WQP-PJ301M-12_JACK | WQP-PJ301M-12_JACK  | thonkiconn |     1 |               |
+| TRIANGLE  | WQP-PJ301M-12_JACK |     100 | WQP-PJ301M-12_JACK | WQP-PJ301M-12_JACK  | thonkiconn |     1 |               |

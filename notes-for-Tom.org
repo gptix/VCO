@@ -1,4 +1,48 @@
+* TODO
+** Tom
+- [ ] please indicate use of pins on 16 pin connector. Please make clear with reference to shape of component.
+- [ ] please, for pots, identify
+  - [ ] package in Eagle, if it actually corresponds to real form
+  - [ ] dimensions (l,w,h,pin locations) if no correct package in Eagle is identified
+- [ ] order 0.1uF capacitors
+- [ ] order pots
+- [ ] order voltage regulators
+- [ ] figure out how many VCOs we can make with parts on hand (assuming we get parts listed above)
+- [ ] maybe update the packages for caps on your board (use package rcl> CEU> C050-025X075)
+
+** Jud / Other
+- [X] parts table
+  - [X] start
+  - [X] complete
+- [X] find or make library for jacks
+- [X] make github repo for VCO
+- [X] send Tom 
+  - [X] link to github
+  - [X] these notes
+- [X] find out what design rules we need to use - OSHPark
+- [X] find out what vendor we will use to manufacture board - OSHPark
+
+
+* References
+** Eurorack standards
+http://electronicmusic.wikia.com/wiki/Eurorack
+http://www.doepfer.de/a100_man/a100m_e.htm
+https://i.imgur.com/0m7hy4D.png
+** Dimensions of Tom's VCO
+*** Top plate (surface user sees when playing)
+width = .8 inch
+length 5.08 inch
+** PCB
+width - mostly same.
+length -  4.3 inches
+** Basics of layout of board
+https://learn.sparkfun.com/tutorials/using-eagle-board-layout/arranging-the-board
+
+
+
 * Parts for VCO circuit
+This has not been updated. Tom and Jud used a part list exported from Tom's project.
+
 | IC                |        |                      | on hand q |
 |                   |        |                      |           |
 |-------------------+--------+----------------------+-----------|
@@ -61,44 +105,4 @@
 | Voltage regulator |        | MC79L05ACPRMGOSCT-ND |           |
 | Q1                |        |                      |           |
 #+TBLFM: $1=--
-
-* TODO
-** Tom
-- [ ] review parts list
-- [ ] confirm parts on hand now
-- [ ] list parts for order
-- [ ] check or doublecheck dimensions of 
-  - [ ] resistors (currently defined as 0207/10
-  - [ ] capacitors
-  - [ ] sockets (l,h,w, pin locations) - get part number if possible
-  - [ ] potentiometers (l,h,w, pin locations - need to be compatible with sockets)
-        digikey Bourne diugikey PN 490-2881-ND
- - [ ] check pinout for power connector, based on operating eurorack power cable     
-** Jud / Other
-- [ ] order parts
-- [-] parts table
-  - [X] start
-  - [ ] complete
-- [ ] find or make library for jacks
-- [X] make github repo for VCO
-- [X] send Tom 
-  - [X] link to github
-  - [X] these notes
-- [X] find out what design rules we need to use - OSHPark
-- [X] find out what vendor we will use to manufacture board - OSHPark
-* References
-** Eurorack standards
-http://electronicmusic.wikia.com/wiki/Eurorack
-http://www.doepfer.de/a100_man/a100m_e.htm
-https://i.imgur.com/0m7hy4D.png
-** Dimensions of Tom's VCO
-*** Top plate (surface user sees when playing)
-width = .8 inch
-length 5.08 inch
-** PCB
-width - mostly same.
-length -  4.3 inches
-** Basics of layout of board
-https://learn.sparkfun.com/tutorials/using-eagle-board-layout/arranging-the-board
-
 
