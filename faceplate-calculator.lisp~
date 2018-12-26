@@ -1,0 +1,14 @@
+(defconstant horizontal-pitch-unit-mm 5.08)
+(defconstant screw-hole-center-from-edge-mm 3)
+(defconstant height-of-panel-mm 128.5)
+(defconstant horizontal-padding-mm 7.5)
+(defconstant vertical-inset-pcb-from-faceplate-edges-mm 2.5)
+
+(defun faceplate-dimensions-mm (hp-units)
+  (list :width (+ (* horizontal-pitch-unit-mm hp-units)
+		  (* 2 horizontal-padding-mm))
+	:height height-of-panel-mm))
+
+
+  
+ 

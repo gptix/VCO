@@ -1,3 +1,7 @@
+- you have defined nets GATE and CV. However, I do not see them anywhere other than the 16-pin connector. Should they be connected anywhere else? If so, where?
+
+
+
 * TODO
 ** Tom
 - [ ] please indicate use of pins on 16 pin connector. Please make clear with reference to shape of component.

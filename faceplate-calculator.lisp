@@ -1,0 +1,18 @@
+(defconstant horizontal-pitch-unit-mm 5.08)
+(defconstant screw-hole-center-from-edge-mm 3)
+(defconstant height-of-panel-mm 128.5)
+(defconstant horizontal-padding-mm 7.5)
+(defconstant pcb-inset-from-faceplate-edges-mm 2.5)
+
+(defun faceplate-dimensions-mm (hp-units)
+  (list :fp-width-mm (+ (* horizontal-pitch-unit-mm hp-units)
+		  (* 2 horizontal-padding-mm))
+	:fp-height-mm height-of-panel-mm))
+
+(defun pcb-dimensions-mm (hp-units)
+  (let ((fp-dim (faceplate-dimensions-mm hp-units)))
+    (list :pcb-width (- (getf fp-dim :fp-width-mm) (* 2 pcb-inset-from-faceplate-edges))
+	  :pcb-height (getf fp-dim :p-height-mm))))
+
+  
+ 
